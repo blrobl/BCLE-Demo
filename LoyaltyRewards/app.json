@@ -13,7 +13,7 @@
     "dependencies": [],
     "screenshots": [],
     "platform": "1.0.0.0",
-    "application": "25.0.0.4412",
+    "application": "24.0.0.0",
     "idRanges": [
         {
             "from": 50100,
@@ -28,5 +28,5 @@
     "features": [
         "NoImplicitWith"
     ],
-    "runtime": "14.0"
+    "runtime": "13.0"
 }
