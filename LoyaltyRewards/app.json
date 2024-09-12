@@ -1,7 +1,7 @@
 {
     "id": "91d1d96f-5312-468c-9845-ae113a9d363b",
     "name": "Loyalty Rewards Demo",
-    "publisher": "BC Tech Days",
+    "publisher": "BCLE",
     "version": "1.0.0.0",
     "brief": "Provides functionality to add loyalty rewards for customers.",
     "description": "Provides functionality to add loyalty rewards for customers.",
@@ -21,9 +21,9 @@
         }
     ],
     "resourceExposurePolicy": {
-        "allowDebugging": true,
-        "allowDownloadingSource": true,
-        "includeSourceInSymbolFile": true
+        "allowDebugging": false,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
     },
     "features": [
         "NoImplicitWith"
