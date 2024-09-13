@@ -10,6 +10,7 @@ pageextension 50104 "Customer Card Ext" extends "Customer Card"
                 Lookup = true;
                 ToolTip = 'Specifies the level of reward that the customer has at this point.';
                 LookupPageId = "Reward List";
+                ShowMandatory = true;
                 trigger OnValidate()
                 begin
                     If Rec."Reward ID" = 'GOLD' then
