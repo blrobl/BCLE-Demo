@@ -13,12 +13,14 @@ page 50101 "Reward Card"
             {
                 field("Reward Id"; Rec."Reward ID")
                 {
+                    ShowMandatory = true;
                     ApplicationArea = All;
                     ToolTip = 'Specifies the level of the reward.';
                 }
 
                 field(Description; Rec.Description)
                 {
+                    ShowMandatory = true;
                     ApplicationArea = All;
                     ToolTip = 'Specifies the description of the reward.';
                 }
@@ -60,4 +62,10 @@ page 50101 "Reward Card"
             }
         }
     }
+
+    trigger OnDeleteRecord(): Boolean
+    var
+        myCodeunit: Codeunit "Advanced Settings";
+    begin
+    end;
 }
