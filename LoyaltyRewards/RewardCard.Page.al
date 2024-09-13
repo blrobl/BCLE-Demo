@@ -53,19 +53,12 @@ page 50101 "Reward Card"
                 Caption = 'Reward Picture';
                 SubPageLink = "Reward ID" = FIELD("Reward ID");
             }
-            part("Attached Documents"; "Document Attachment Factbox")
+
+            part(Workflow; "Word Templates Related FactBox")
             {
                 ApplicationArea = All;
                 Caption = 'Attachments';
-                SubPageLink = "Table ID" = CONST(Database::Reward),
-                              "No." = FIELD("Reward ID");
             }
         }
     }
-
-    trigger OnDeleteRecord(): Boolean
-    var
-        myCodeunit: Codeunit "Advanced Settings";
-    begin
-    end;
 }
